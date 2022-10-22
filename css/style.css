@@ -1,0 +1,555 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+h1,h2,h3,h4,h6,p{
+    padding: 0;
+    margin: 0;
+}
+.red{
+    height: 2px;
+    width: 50px;
+    background-color: #ea3a60;
+}
+/*============================ header part start ===================*/
+header{
+    padding: 20px 0;
+}
+.head_one{
+    border-right: none !important;
+}
+.head_items{
+    color: #ea3a60;
+    position: relative;
+    padding-left: 35px;
+    border-right: 1px solid #ea3a60;
+}
+.head_items i{
+    position: absolute;
+    top: 12px;
+    left: 0;
+    font-size: 20px;
+}
+.head_items h6{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+.header_icon{
+    text-align: end;
+    color: #ea3a60;
+    margin-top: 12px;
+}
+.header_icon i{
+    padding-left: 10px;
+    font-size: 21px;
+}
+/*============================ header part end ===================*/
+/*============================ nav part satrt ===================*/
+.nav_part{
+    background-color: #ea3a60;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+    font-weight: 600 !important;
+}
+/*============================ nav part end ===================*/
+
+/*===================== banner part start =======================*/
+#banner{
+    background: url(../images/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.banner_text{
+    background-color: #ea3a60;
+    height: 400px;
+    width: 550px;
+    color: #fff;
+    padding: 60px 50px;
+}
+.banner_text h4{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+.banner_btn{
+    display: flex;
+    margin-top: 20px;
+}
+.banner_btn1 a{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #ea3a60;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-right: 20px;
+}
+.banner_btn1 a:hover{
+   
+    color: #fff;
+    background-color: #ea3a60
+}
+.banner_btn2 a:hover{
+    color: #ea3a60;
+    background-color: #fff;
+}
+.banner_btn2 a{
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+/* ========================= business part satrt =====================*/
+#business{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.bus_img img{
+    width: 100%;
+}
+.bus_24{
+    padding: 20px 10px;
+    background-color: #ea3a60;
+    color: #fff;
+    text-align: center;
+}
+.bus_24 h3{
+    font-size: 20px;
+}
+.bus_btn a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    color: #ea3a60;
+    border: 1px solid #ea3a60;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-weight: 600;
+}
+.bus_btn a:hover{
+    color: #fff;
+    background-color: #ea3a60;
+}
+.bus_text_head h1{
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 15px;
+}
+.bus_text_head p{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+}
+/* ========================= business part end =====================*/
+/*============================== CHOOSE PART START ====================*/
+#choose{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.choose_head{
+    padding-right: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.choose_head h1{
+    padding-bottom: 10px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+.choose_head p{
+    
+    padding-top: 10px;
+    color: rgb(73, 50, 50);
+}
+
+
+.choose_img{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 130px;
+    right: 0;
+}
+.choose_img img{
+    width: 100%;
+    height: 70%;
+}
+.choose_one{
+    position: relative;
+    padding-left: 75px;
+    padding-right: 50px;
+    margin-top: 30px;
+}
+.choose_one p{
+    padding-top: 6px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(99, 74, 74);
+}
+.choose_box{
+    height: 55px;
+    width: 55px;
+    background-color: #ea3a60;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 16px;
+    left: 0;
+}
+.choose_box i{
+    color: #fff;
+    font-size: 27px;
+}
+/*============================== CHOOSE PART end ====================*/
+/*============================== OFFER PART START ====================*/
+#offer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+}
+.offer_one{
+    border-right: 4px solid #ea3a60;
+   
+}
+.offer_one h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.offer_two{
+    color: rgb(65, 46, 46);
+}
+.offer_items{
+    padding: 40px 0;
+}
+.offer_financ{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+.offer_financ:hover{
+    background-color: #ea3a60;
+    color: #fff;
+}
+.offer_financ:hover.offer_financ i{
+    color: #fff;
+}
+.offer_financ:hover.offer_financ p{
+    color: #fff;
+}
+.offer_financ i{
+    font-size: 35px;
+    color: #ea3a60;
+}
+.offer_financ h4{
+    padding: 15px 0;
+    letter-spacing: 1px;
+}
+.offer_financ p{
+    color: #040404;
+    font-family: 'DM Sans', sans-serif;
+    padding: 0 30px;
+}
+/*============================== OFFER PART end ====================*/
+/*============================== TEAM PART START ====================*/
+#team{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.team_head{
+    margin: 0 auto;
+    text-align: center;
+    width: 62%;
+}
+.team_head h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: rgb(56, 46, 46);
+}
+.team_head .red{
+    margin: 10px auto;
+}
+.team_img{
+    overflow: hidden;
+    position: relative;
+}
+.team_img img{
+    width: 100%;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: .7s;
+    -webkit-transition: .7s;
+    -moz-transition: .7s;
+    -ms-transition: .7s;
+    -o-transition: .7s;
+}
+.team_img:hover img{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.team_items{
+    padding-top: 40px;
+}
+.team_text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #ea3a60;
+    padding: 20px;
+    display: inline;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.team_img:hover .team_text{
+    opacity: 0;
+}
+.team_img:hover .team_overlay{
+    transform: scale(1.8);
+    -webkit-transform: scale(1.8);
+    -moz-transform: scale(1.8);
+    -ms-transform: scale(1.8);
+    -o-transform: scale(1.8);
+}
+
+.team_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(234, 58, 96, 0.5);
+    transform: scale(0);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transition: 0.9s;
+    -webkit-transition: 0.9s;
+    -moz-transition: 0.9s;
+    -ms-transition: 0.9s;
+    -o-transition: 0.9s;
+}
+.team_overlay i{
+    color: #fff;
+    font-size: 40px;
+}
+/*============================== TEAM PART end ====================*/
+/*============================== COUNTER PART START ====================*/
+#counter{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: url(../images/counter-part.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+}
+.counter_overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(234, 58, 96, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.counter_items{
+    text-align: center;
+    color: #fff;
+}
+.counter_items h1{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+}
+.counter_items h4{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+/*============================== COUNTER PART end ====================*/
+/*============================== QUESTION PART SATRT ====================*/
+#question{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.question_img img{
+    width: 110%;
+    height: 100%;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #ea3a60;
+    color: #fff;
+}
+button, input, optgroup, select, textarea {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+/*============================== QUESTION PART end ====================*/
+/*============================== PLAN PART START ====================*/
+#plan{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f3f3f3;
+}
+.plan_items{
+    padding-top: 40px;
+}
+.plan_one h1{
+    background-color: #ea3a60;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
+.plan_one h1 span{
+    font-size: 18px;
+    font-weight: 400;
+}
+.plan_one{
+    background-color: #fff;
+}
+.plan_one ul li i{
+    font-size: 14px;
+    color: #ea3a60;
+    margin-right: 5px;
+}
+.plan_one ul{
+    padding-top: 10px;
+}
+.plan_one ul li{
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #662e3a;
+}
+.plan_btn{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
+   
+}
+.plan_btn a{
+    color: #ea3a60;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding: 13px 30px;
+    border: 1px solid #ea3a60;
+    display: inline-block;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.plan_btn a:hover{
+    background-color: #ea3a60;
+    color: #fff;
+}
+/*============================== PLAN PART end ====================*/
+/*============================== CLIENT PART start ====================*/
+#client{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.client_one{
+    box-shadow: 1px -1px 23px 4px rgba(0,0,0,0.11);
+    -webkit-box-shadow: 1px -1px 23px 4px rgba(0,0,0,0.11);
+    -moz-box-shadow: 1px -1px 23px 4px rgba(0,0,0,0.11);
+    padding: 30px;
+    margin-top: 50px;
+}
+.client_name{
+    text-align: end;
+    position: relative;
+}
+.clt_img{
+    position: absolute;
+    top: -20px;
+    right: -15px;
+}
+.clt_img img{
+    width: 50%;
+}
+.client_p{
+    font-family: 'Roboto', sans-serif;
+}
+.client_name h4{
+    padding-top: 15px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+/*============================== CLIENT PART end ====================*/
+/*============================== footer PART start ====================*/
+#footer{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.ftr_one p{
+    padding: 20px 0;
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+}
+.ftr_last ul{
+    padding: 0 !important;
+    margin-top: 15px;
+}
+.ftr_last ul li{
+    padding-top: 15px;
+    color: #555;
+    font-family: 'Roboto', sans-serif;
+}
+.last_part{
+    padding: 20px 0;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+/*============================== footer PART end ====================*/

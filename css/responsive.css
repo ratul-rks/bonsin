@@ -1,0 +1,63 @@
+@media (max-width:575px){
+    
+
+    #banner {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .header_icon {
+        text-align: center;
+        padding-top: 15px;
+    }
+    .banner_text {
+        height: auto;
+        width: 100%;
+        padding: 30px 10px;
+    }
+    .banner_text h4 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .banner_text h1 {
+        font-size: 20px;
+        padding-top: 8px;
+        padding-bottom: 10px;
+    }
+    .banner_btn1 a {
+        padding: 12px 17px;
+        margin-right: 15px;
+        font-size: 14px;
+    }
+    .banner_btn2 a {
+        padding: 12px 17px;
+        font-size: 14px;
+    }
+
+    /* about part */
+    .choose_img {
+        display: none;
+    }
+    .choose_one {
+        padding-right: 18px;
+    }
+    .team_img {
+        margin-top: 20px;
+    }
+    .counter_items {
+        margin: 10px 0;
+    }
+    .team_head {
+        width: 86%;
+    }
+    .plan_one {
+        margin: 10px 0;
+    }
+    .client_name {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .ftr_last{
+        text-align: center;
+    }
+
+}
